@@ -1,0 +1,71 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+ .fa-star{
+   margin: 0.5em;
+  font-size: 24px;
+ }
+
+.selected{
+  background-color: #eee;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.used{
+  background-color: #aaddaa;
+  color: #99bb99;
+  cursor: not-allowed;
+}
+
+span{
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("https://onepagelove-wpengine.netdna-ssl.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
